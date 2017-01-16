@@ -2,8 +2,7 @@
 print "What is your name?"
 name = gets.chomp
 print "How old are you?"
-age = gets.chomp
-"age".to_i(0)
+age = gets.chomp.to_i
 year = 2017 - age
 
 puts "Hi #{name}!"
